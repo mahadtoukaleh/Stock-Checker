@@ -1,73 +1,72 @@
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .app-container {
-    max-width: 320px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #2f80ed;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .input-container {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #333333;
-    text-align: left;
-  }
-  
-  input {
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    width: 70%;
-    margin-right: 10px;
-  }
-  
-  button {
-    background-color: #2f80ed;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #1e64c8;
-  }
-  
-  .result-container {
-    display: none;
-  }
-  
-  h2 {
-    color: #333333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #result {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2f80ed;
-  }
-  
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2f80ed;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+}
+
+input {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e64c8;
+}
+
+.result-container {
+  display: none;
+}
+
+h2 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#result {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f80ed;
+}
