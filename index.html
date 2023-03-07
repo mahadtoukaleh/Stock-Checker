@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Stock Halal/Haram Checker</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="app-container">
-      <h1>Stock Halal/Haram Checker</h1>
-      <div class="input-container">
-        <label for="symbol">Enter Stock Ticker Symbol:</label>
-        <input type="text" id="symbol" placeholder="AAPL" />
-        <button onclick="checkStock()">Check</button>
-      </div>
-      <div class="result-container">
-        <h2>Result:</h2>
-        <p id="result"></p>
-      </div>
-    </div>
-    <script src="javascript.js"></script>
-  </body>
+<html>
+<head>
+  <title>Halal Or Haram?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Is The Stock Halal?</h1>
+  <input type="text" id="symbol" placeholder="AAPL">
+  <button onclick="checkStock()">Check</button>
+
+  <div id="result-container" style="display:none;">
+    <h2>Stock Information</h2>
+    <div id="result"></div>
+  </div>
+   <script src="javascript.js"></script>
+</body>
 </html>
