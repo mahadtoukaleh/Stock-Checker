@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Halal Or Haram?</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Halal Stock Checker</title>
 </head>
 <body>
-  <h1>Is The Stock Halal?</h1>
-  <input type="text" id="symbol" placeholder="AAPL">
-  <button onclick="checkStock()">Check</button>
-
-  <div id="result-container" style="display:none;">
-    <h2>Stock Information</h2>
+  <h1>Halal Stock Checker</h1>
+  <form>
+    <label for="symbol">Enter a stock symbol:</label>
+    <input type="text" id="symbol" placeholder="AAPL">
+    <button type="button" onclick="checkStock()">Check</button>
+  </form>
+  <div id="result-container" style="display: none;">
+    <h2>Result</h2>
     <div id="result"></div>
   </div>
-   <script src="javascript.js"></script>
+  <script src="javascript.js"></script>
 </body>
 </html>
